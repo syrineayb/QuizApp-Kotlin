@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Quiz Application</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="quiz_fragment_label">Quiz Flags</string>
+    <string name="next_btn">Next</string>
+    <string name="start_quiz_btn">Start Quiz</string>
+
+
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">Start Quiz</string>
+    <string name="nombre_de_choix_description">Display 2, 4, 6 ou 8 choices</string>
+    <string name="monde_regions">Regions</string>
+    <string name="monde_regions_description">Régions à inclure</string>
+    <string name="choix_pays">Choose a country</string>
+    <string name="choix_list_2">2</string>
+    <string name="choix_list_4">4</string>
+    <string name="choix_list_6">6</string>
+    <string name="choix_list_8">8</string>
+    <string name="question_number">Question %1$d of %2$d</string>
+    <string name="resultats">%1$d faux, %2$.02f%% correct</string>
+    <string name="reponse_incorrecte">Incorrect!</string>
+    <string name="message_region_defaut">Une région doit être sélectionnée. La région par défaut est Africa</string>
+    <string name="restarting_quiz">Quiz redémarre avec votre nouvelle configuration</string>
+    <string name="reset_quiz">Reset Quiz</string>
+    <string name="image_description">Image du drapeau courant</string>
+    <string name="defaut_region">defaut_region</string>
+    <string name="nombre_de_choix" />
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_number_of_choices">Select Number of Choices</string>
+    <string name="select_regions">Select Region(s)</string>
+    <string name="num_choices_fragment_label">Choices</string>
+    <string name="question"></string>
+
+</resources>

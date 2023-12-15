@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.quiz.MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/round_build_24"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_select_region"
+        android:orderInCategory="101"
+        android:title="@string/select_regions"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_select_nb_choices"
+        android:orderInCategory="102"
+        android:title="@string/select_number_of_choices"
+        app:showAsAction="never" />
+
+</menu>

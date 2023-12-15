@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Preference Title">
+
+    <ListPreference
+        android:key="pref_nombreChoix"
+        android:title="@string/nombre_de_choix"
+        android:summary="@string/nombre_de_choix_description"
+        android:entries="@array/choix_list"
+        android:entryValues="@array/choix_list"
+        android:persistent="true"
+        android:defaultValue="4" />
+    <MultiSelectListPreference
+        android:key="pref_regionsAInclure"
+        android:title="@string/monde_regions"
+        android:summary="@string/monde_regions_description"
+        android:entries="@array/regions_list_configuration"
+        android:entryValues="@array/regions_list"
+        android:persistent="true"
+        android:defaultValue="@array/regions_list" />
+
+</PreferenceScreen>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/select_number_of_choices" />
+
+    <!-- RadioGroup for choosing the number of responses -->
+    <RadioGroup
+        android:id="@+id/radioGroupNumResponses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <!-- RadioButtons will be added programmatically -->
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonNumChoicesNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_quiz_btn"
+        android:textColor="@color/button_text_color"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

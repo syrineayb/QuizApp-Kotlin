@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FlagsQuiz">
+
+    <fragment
+        android:id="@+id/RegionsChoiceFragment"
+        android:name="com.example.quiz.RegionChoiceFragment"
+        android:label="@string/monde_regions"
+        tools:layout="@layout/fragment_region_choice">
+        <action
+            android:id="@+id/action_RegionsChoiceFragment_to_NumChoicesFragment"
+            app:destination="@id/NumChoicesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/NumChoicesFragment"
+        android:name="com.example.quiz.NumChoicesFragment"
+        android:label="@string/num_choices_fragment_label"
+        tools:layout="@layout/fragment_num_choices">
+        <action
+            android:id="@+id/action_NumChoicesFragment_to_FlagsQuiz"
+            app:destination="@id/FlagsQuiz" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/FlagsQuiz"
+        android:name="com.example.quiz.FlagsQuizFragment"
+        android:label="@string/quiz_fragment_label"
+        tools:layout="@layout/fragment_flags_quiz">
+
+        <argument
+            android:name="defaultNumChoices"
+            app:argType="integer"
+            android:defaultValue="4" /> <!-- Default number of choices -->
+        <argument
+            android:name="defaultNumRegions"
+            app:argType="integer"
+            android:defaultValue="4" /> <!-- Default number of regions -->
+
+        <action
+            android:id="@+id/action_FlagsQuiz_to_RegionsFragment"
+            app:destination="@id/RegionsFragment" />
+        <action
+            android:id="@+id/action_FlagsQuiz_self"
+            app:destination="@id/FlagsQuiz" />
+    </fragment>
+
+</navigation>

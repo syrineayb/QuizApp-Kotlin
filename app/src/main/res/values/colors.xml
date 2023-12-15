@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="reponse_correcte">#00CC00</color>
+    <color name="reponse_incorrecte">#FF0000</color>
+    <color name="text_color">#878A8D</color>
+    <color name="options_color">#167EB6</color>
+</resources>
